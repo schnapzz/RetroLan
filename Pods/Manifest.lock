@@ -1,0 +1,15 @@
+PODS:
+  - boost/numeric-includes (1.57.0)
+  - boost/preprocessor-includes (1.57.0)
+  - eigen (3.2.4):
+    - boost/numeric-includes
+    - boost/preprocessor-includes
+
+DEPENDENCIES:
+  - eigen (~> 3.2.4)
+
+SPEC CHECKSUMS:
+  boost: b6ed834eb7fac13c21eecfa034242649b155ef09
+  eigen: bd958c8f2ab27409f29da3b3e8b505b4a6bb5223
+
+COCOAPODS: 0.35.0

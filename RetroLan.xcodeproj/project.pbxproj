@@ -15,6 +15,13 @@
 		162CBBC01B7A035F00A50522 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162CBBBF1B7A035F00A50522 /* Images.xcassets */; };
 		162CBBC31B7A035F00A50522 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162CBBC11B7A035F00A50522 /* LaunchScreen.xib */; };
 		162CBBCF1B7A035F00A50522 /* RetroLanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBCE1B7A035F00A50522 /* RetroLanTests.m */; };
+		162CBBDC1B7A069100A50522 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBDB1B7A069100A50522 /* Controller.m */; };
+		162CBBDF1B7A074900A50522 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBDE1B7A074900A50522 /* Player.m */; };
+		162CBBE21B7A085C00A50522 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBE11B7A085C00A50522 /* Game.m */; };
+		162CBBE51B7A08BC00A50522 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBE41B7A08BC00A50522 /* Score.m */; };
+		162CBBE81B7A094C00A50522 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBE71B7A094C00A50522 /* Session.m */; };
+		162CBBEB1B7A0A6400A50522 /* Play.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBEA1B7A0A6400A50522 /* Play.m */; };
+		1FDF203ECB8585AA75F64F2B /* libPods-RetroLan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D4D36C9CD177BF9EA288BE /* libPods-RetroLan.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,21 @@
 		162CBBC81B7A035F00A50522 /* RetroLanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroLanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		162CBBCD1B7A035F00A50522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		162CBBCE1B7A035F00A50522 /* RetroLanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetroLanTests.m; sourceTree = "<group>"; };
+		162CBBDA1B7A069100A50522 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		162CBBDB1B7A069100A50522 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		162CBBDD1B7A074900A50522 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		162CBBDE1B7A074900A50522 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		162CBBE01B7A085C00A50522 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		162CBBE11B7A085C00A50522 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		162CBBE31B7A08BC00A50522 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		162CBBE41B7A08BC00A50522 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		162CBBE61B7A094C00A50522 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		162CBBE71B7A094C00A50522 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		162CBBE91B7A0A6400A50522 /* Play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Play.h; sourceTree = "<group>"; };
+		162CBBEA1B7A0A6400A50522 /* Play.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Play.m; sourceTree = "<group>"; };
+		6903CFD00895C7D123451BD8 /* Pods-RetroLan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroLan.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetroLan/Pods-RetroLan.release.xcconfig"; sourceTree = "<group>"; };
+		A9221B057FEE8C51B33F5FCA /* Pods-RetroLan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroLan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetroLan/Pods-RetroLan.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D4D36C9CD177BF9EA288BE /* libPods-RetroLan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetroLan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDF203ECB8585AA75F64F2B /* libPods-RetroLan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +92,8 @@
 				162CBBAE1B7A035F00A50522 /* RetroLan */,
 				162CBBCB1B7A035F00A50522 /* RetroLanTests */,
 				162CBBAD1B7A035F00A50522 /* Products */,
+				56B545FC390D5F6F15EAC418 /* Pods */,
+				F687F2EC1897886E80DAB706 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,10 +111,10 @@
 			children = (
 				162CBBB31B7A035F00A50522 /* AppDelegate.h */,
 				162CBBB41B7A035F00A50522 /* AppDelegate.m */,
-				162CBBB61B7A035F00A50522 /* FirstViewController.h */,
-				162CBBB71B7A035F00A50522 /* FirstViewController.m */,
-				162CBBB91B7A035F00A50522 /* SecondViewController.h */,
-				162CBBBA1B7A035F00A50522 /* SecondViewController.m */,
+				162CBBDA1B7A069100A50522 /* Controller.h */,
+				162CBBDB1B7A069100A50522 /* Controller.m */,
+				162CBBD81B7A063F00A50522 /* Model */,
+				162CBBD91B7A064500A50522 /* Views */,
 				162CBBBC1B7A035F00A50522 /* Main.storyboard */,
 				162CBBBF1B7A035F00A50522 /* Images.xcassets */,
 				162CBBC11B7A035F00A50522 /* LaunchScreen.xib */,
@@ -124,6 +149,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		162CBBD81B7A063F00A50522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				162CBBDD1B7A074900A50522 /* Player.h */,
+				162CBBDE1B7A074900A50522 /* Player.m */,
+				162CBBE01B7A085C00A50522 /* Game.h */,
+				162CBBE11B7A085C00A50522 /* Game.m */,
+				162CBBE31B7A08BC00A50522 /* Score.h */,
+				162CBBE41B7A08BC00A50522 /* Score.m */,
+				162CBBE61B7A094C00A50522 /* Session.h */,
+				162CBBE71B7A094C00A50522 /* Session.m */,
+				162CBBE91B7A0A6400A50522 /* Play.h */,
+				162CBBEA1B7A0A6400A50522 /* Play.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		162CBBD91B7A064500A50522 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				162CBBB61B7A035F00A50522 /* FirstViewController.h */,
+				162CBBB71B7A035F00A50522 /* FirstViewController.m */,
+				162CBBB91B7A035F00A50522 /* SecondViewController.h */,
+				162CBBBA1B7A035F00A50522 /* SecondViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		56B545FC390D5F6F15EAC418 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9221B057FEE8C51B33F5FCA /* Pods-RetroLan.debug.xcconfig */,
+				6903CFD00895C7D123451BD8 /* Pods-RetroLan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F687F2EC1897886E80DAB706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D4D36C9CD177BF9EA288BE /* libPods-RetroLan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 162CBBD21B7A035F00A50522 /* Build configuration list for PBXNativeTarget "RetroLan" */;
 			buildPhases = (
+				E95550E67C6CEB69B7DAFD85 /* Check Pods Manifest.lock */,
 				162CBBA81B7A035F00A50522 /* Sources */,
 				162CBBA91B7A035F00A50522 /* Frameworks */,
 				162CBBAA1B7A035F00A50522 /* Resources */,
+				394D3D679DAF33E4E0D54182 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,15 +291,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		394D3D679DAF33E4E0D54182 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetroLan/Pods-RetroLan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95550E67C6CEB69B7DAFD85 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		162CBBA81B7A035F00A50522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				162CBBBB1B7A035F00A50522 /* SecondViewController.m in Sources */,
+				162CBBDC1B7A069100A50522 /* Controller.m in Sources */,
 				162CBBB51B7A035F00A50522 /* AppDelegate.m in Sources */,
 				162CBBB81B7A035F00A50522 /* FirstViewController.m in Sources */,
+				162CBBDF1B7A074900A50522 /* Player.m in Sources */,
+				162CBBEB1B7A0A6400A50522 /* Play.m in Sources */,
+				162CBBE21B7A085C00A50522 /* Game.m in Sources */,
+				162CBBE51B7A08BC00A50522 /* Score.m in Sources */,
 				162CBBB21B7A035F00A50522 /* main.m in Sources */,
+				162CBBE81B7A094C00A50522 /* Session.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +464,7 @@
 		};
 		162CBBD31B7A035F00A50522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9221B057FEE8C51B33F5FCA /* Pods-RetroLan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RetroLan/Info.plist;
@@ -363,6 +475,7 @@
 		};
 		162CBBD41B7A035F00A50522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6903CFD00895C7D123451BD8 /* Pods-RetroLan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RetroLan/Info.plist;
@@ -424,6 +537,7 @@
 				162CBBD41B7A035F00A50522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		162CBBD51B7A035F00A50522 /* Build configuration list for PBXNativeTarget "RetroLanTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +546,7 @@
 				162CBBD71B7A035F00A50522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
