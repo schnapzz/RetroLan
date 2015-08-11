@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CreateViewController : UIViewController <UITextViewDelegate>
+@interface CreateViewController : UIViewController <UITextFieldDelegate>
 
-@property IBOutlet UITextView *playerTextView;
-@property IBOutlet UITextView *gameTextView;
+@property IBOutlet UITextField *playerTextField;
+@property IBOutlet UITextField *gameTextField;
 
 - (IBAction)createPlayer;
 - (IBAction)createGame;

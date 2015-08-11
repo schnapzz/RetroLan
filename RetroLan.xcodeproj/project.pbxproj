@@ -23,6 +23,7 @@
 		162CBBEB1B7A0A6400A50522 /* Play.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBEA1B7A0A6400A50522 /* Play.m */; };
 		1681F36A1B7A1F95003C0301 /* ProfilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681F3691B7A1F95003C0301 /* ProfilesViewController.m */; };
 		1681F36D1B7A276B003C0301 /* LANManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681F36C1B7A276B003C0301 /* LANManager.m */; };
+		16E7A5C11B7A3B3F00D8BC63 /* LANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E7A5C01B7A3B3F00D8BC63 /* LANViewController.m */; };
 		1FDF203ECB8585AA75F64F2B /* libPods-RetroLan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D4D36C9CD177BF9EA288BE /* libPods-RetroLan.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		1681F3691B7A1F95003C0301 /* ProfilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilesViewController.m; sourceTree = "<group>"; };
 		1681F36B1B7A276B003C0301 /* LANManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANManager.h; sourceTree = "<group>"; };
 		1681F36C1B7A276B003C0301 /* LANManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANManager.m; sourceTree = "<group>"; };
+		16E7A5BF1B7A3B3F00D8BC63 /* LANViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANViewController.h; sourceTree = "<group>"; };
+		16E7A5C01B7A3B3F00D8BC63 /* LANViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANViewController.m; sourceTree = "<group>"; };
 		6903CFD00895C7D123451BD8 /* Pods-RetroLan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroLan.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetroLan/Pods-RetroLan.release.xcconfig"; sourceTree = "<group>"; };
 		A9221B057FEE8C51B33F5FCA /* Pods-RetroLan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroLan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetroLan/Pods-RetroLan.debug.xcconfig"; sourceTree = "<group>"; };
 		A9D4D36C9CD177BF9EA288BE /* libPods-RetroLan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetroLan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +180,8 @@
 		162CBBD91B7A064500A50522 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				16E7A5BF1B7A3B3F00D8BC63 /* LANViewController.h */,
+				16E7A5C01B7A3B3F00D8BC63 /* LANViewController.m */,
 				162CBBB61B7A035F00A50522 /* FirstViewController.h */,
 				162CBBB71B7A035F00A50522 /* FirstViewController.m */,
 				162CBBB91B7A035F00A50522 /* CreateViewController.h */,
@@ -350,6 +355,7 @@
 				162CBBE51B7A08BC00A50522 /* Score.m in Sources */,
 				1681F36D1B7A276B003C0301 /* LANManager.m in Sources */,
 				162CBBB21B7A035F00A50522 /* main.m in Sources */,
+				16E7A5C11B7A3B3F00D8BC63 /* LANViewController.m in Sources */,
 				162CBBE81B7A094C00A50522 /* Session.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

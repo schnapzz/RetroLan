@@ -24,24 +24,19 @@
 
 - (void)createPlayer {
  
-    [[Controller sharedInstance] createPlayer:self.playerTextView.text];
+    [[Controller sharedInstance] createPlayer:self.playerTextField.text];
 }
 
 - (void)createGame {
     
-    [[Controller sharedInstance] createGame:self.gameTextView.text];
+    [[Controller sharedInstance] createGame:self.gameTextField.text];
 }
 
-#pragma mark - TextView Delegate
+#pragma mark - TextField Delegate
 
-- (void)textViewDidBeginEditing:(UITextView *)textView {
-    
-    
-}
-
-- (void)textViewDidEndEditing:(UITextView *)textView {
-    
-    
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+  
+    return YES;
 }
 
 @end
