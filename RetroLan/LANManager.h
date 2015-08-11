@@ -1,5 +1,5 @@
 //
-//  Player.h
+//  LANManager.h
 //  RetroLan
 //
 //  Created by Mikkel Müller-Hansen on 11/08/15.
@@ -8,12 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Player : NSObject
+@interface LANManager : NSObject
 
-@property NSString *name;
-@property int rank;
-@property NSArray *scores;
-
-- (instancetype)initWith:(NSString*)name;
+- (void)createPlayerWith:(NSString*)name;
+- (void)createGameWith:(NSString*)name;
 
 @end

@@ -7,6 +7,15 @@
 //
 
 #import "Controller.h"
+#import "LANManager.h"
+
+@interface Controller()
+
+@property (strong) LANManager *manager;
+
+@end
+
+
 
 @implementation Controller
 
@@ -17,10 +26,28 @@ static Controller *instance = nil;
     self = [super init];
     if (self != nil) {
         
-        // Do some more
+        self.manager = [[LANManager alloc] init];
     }
     return self;
 }
+
+- (void)createPlayer:(NSString *)playerName {
+    
+    
+}
+
+- (void)createGame:(NSString *)gameName {
+    
+    
+}
+
+
+
+
+
+
+
+
 
 // Singleton
 + (instancetype)sharedInstance {

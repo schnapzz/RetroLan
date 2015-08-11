@@ -10,6 +10,10 @@
 
 @interface Controller : NSObject
 
+
+- (void)createPlayer:(NSString*)playerName;
+- (void)createGame:(NSString*)gameName;
+
 + (instancetype)sharedInstance;
 
 @end

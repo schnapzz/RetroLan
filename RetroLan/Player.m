@@ -10,7 +10,7 @@
 
 @implementation Player
 
-- (instancetype)initwith:(NSString *)name {
+- (instancetype)initWith:(NSString *)name {
     
     self.name = name;
     

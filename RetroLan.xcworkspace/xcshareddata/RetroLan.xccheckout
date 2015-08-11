@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>41495440-FAE9-4BA0-8C99-1FB7F929E891</string>
+	<string>DC09BDAE-445C-4DAD-A7AC-D6BDBFA90214</string>
 	<key>IDESourceControlProjectName</key>
 	<string>RetroLan</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/schnapzz/RetroLan.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RetroLan.xcodeproj</string>
+	<string>RetroLan.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A5B068F33A5BDB805684F7AC7AFD0913B342CCB0</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/schnapzz/RetroLan.git</string>

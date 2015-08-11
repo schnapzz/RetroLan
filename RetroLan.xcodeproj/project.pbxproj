@@ -10,7 +10,7 @@
 		162CBBB21B7A035F00A50522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBB11B7A035F00A50522 /* main.m */; };
 		162CBBB51B7A035F00A50522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBB41B7A035F00A50522 /* AppDelegate.m */; };
 		162CBBB81B7A035F00A50522 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBB71B7A035F00A50522 /* FirstViewController.m */; };
-		162CBBBB1B7A035F00A50522 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBBA1B7A035F00A50522 /* SecondViewController.m */; };
+		162CBBBB1B7A035F00A50522 /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBBA1B7A035F00A50522 /* CreateViewController.m */; };
 		162CBBBE1B7A035F00A50522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162CBBBC1B7A035F00A50522 /* Main.storyboard */; };
 		162CBBC01B7A035F00A50522 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162CBBBF1B7A035F00A50522 /* Images.xcassets */; };
 		162CBBC31B7A035F00A50522 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162CBBC11B7A035F00A50522 /* LaunchScreen.xib */; };
@@ -21,6 +21,8 @@
 		162CBBE51B7A08BC00A50522 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBE41B7A08BC00A50522 /* Score.m */; };
 		162CBBE81B7A094C00A50522 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBE71B7A094C00A50522 /* Session.m */; };
 		162CBBEB1B7A0A6400A50522 /* Play.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CBBEA1B7A0A6400A50522 /* Play.m */; };
+		1681F36A1B7A1F95003C0301 /* ProfilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681F3691B7A1F95003C0301 /* ProfilesViewController.m */; };
+		1681F36D1B7A276B003C0301 /* LANManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681F36C1B7A276B003C0301 /* LANManager.m */; };
 		1FDF203ECB8585AA75F64F2B /* libPods-RetroLan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D4D36C9CD177BF9EA288BE /* libPods-RetroLan.a */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +44,8 @@
 		162CBBB41B7A035F00A50522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		162CBBB61B7A035F00A50522 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		162CBBB71B7A035F00A50522 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		162CBBB91B7A035F00A50522 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		162CBBBA1B7A035F00A50522 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		162CBBB91B7A035F00A50522 /* CreateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		162CBBBA1B7A035F00A50522 /* CreateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
 		162CBBBD1B7A035F00A50522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		162CBBBF1B7A035F00A50522 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		162CBBC21B7A035F00A50522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -62,6 +64,10 @@
 		162CBBE71B7A094C00A50522 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
 		162CBBE91B7A0A6400A50522 /* Play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Play.h; sourceTree = "<group>"; };
 		162CBBEA1B7A0A6400A50522 /* Play.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Play.m; sourceTree = "<group>"; };
+		1681F3681B7A1F95003C0301 /* ProfilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilesViewController.h; sourceTree = "<group>"; };
+		1681F3691B7A1F95003C0301 /* ProfilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilesViewController.m; sourceTree = "<group>"; };
+		1681F36B1B7A276B003C0301 /* LANManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANManager.h; sourceTree = "<group>"; };
+		1681F36C1B7A276B003C0301 /* LANManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANManager.m; sourceTree = "<group>"; };
 		6903CFD00895C7D123451BD8 /* Pods-RetroLan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroLan.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetroLan/Pods-RetroLan.release.xcconfig"; sourceTree = "<group>"; };
 		A9221B057FEE8C51B33F5FCA /* Pods-RetroLan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroLan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetroLan/Pods-RetroLan.debug.xcconfig"; sourceTree = "<group>"; };
 		A9D4D36C9CD177BF9EA288BE /* libPods-RetroLan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetroLan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +119,8 @@
 				162CBBB41B7A035F00A50522 /* AppDelegate.m */,
 				162CBBDA1B7A069100A50522 /* Controller.h */,
 				162CBBDB1B7A069100A50522 /* Controller.m */,
+				1681F36B1B7A276B003C0301 /* LANManager.h */,
+				1681F36C1B7A276B003C0301 /* LANManager.m */,
 				162CBBD81B7A063F00A50522 /* Model */,
 				162CBBD91B7A064500A50522 /* Views */,
 				162CBBBC1B7A035F00A50522 /* Main.storyboard */,
@@ -171,8 +179,10 @@
 			children = (
 				162CBBB61B7A035F00A50522 /* FirstViewController.h */,
 				162CBBB71B7A035F00A50522 /* FirstViewController.m */,
-				162CBBB91B7A035F00A50522 /* SecondViewController.h */,
-				162CBBBA1B7A035F00A50522 /* SecondViewController.m */,
+				162CBBB91B7A035F00A50522 /* CreateViewController.h */,
+				162CBBBA1B7A035F00A50522 /* CreateViewController.m */,
+				1681F3681B7A1F95003C0301 /* ProfilesViewController.h */,
+				1681F3691B7A1F95003C0301 /* ProfilesViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -329,14 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162CBBBB1B7A035F00A50522 /* SecondViewController.m in Sources */,
+				162CBBBB1B7A035F00A50522 /* CreateViewController.m in Sources */,
 				162CBBDC1B7A069100A50522 /* Controller.m in Sources */,
 				162CBBB51B7A035F00A50522 /* AppDelegate.m in Sources */,
+				1681F36A1B7A1F95003C0301 /* ProfilesViewController.m in Sources */,
 				162CBBB81B7A035F00A50522 /* FirstViewController.m in Sources */,
 				162CBBDF1B7A074900A50522 /* Player.m in Sources */,
 				162CBBEB1B7A0A6400A50522 /* Play.m in Sources */,
 				162CBBE21B7A085C00A50522 /* Game.m in Sources */,
 				162CBBE51B7A08BC00A50522 /* Score.m in Sources */,
+				1681F36D1B7A276B003C0301 /* LANManager.m in Sources */,
 				162CBBB21B7A035F00A50522 /* main.m in Sources */,
 				162CBBE81B7A094C00A50522 /* Session.m in Sources */,
 			);
