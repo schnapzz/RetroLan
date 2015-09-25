@@ -22,15 +22,37 @@
 - (void)createPlayerWith:(NSString *)name {
     
     Player *pl = [[Player alloc] initWith:name];
-    
-    [self.players addObject:pl];
+    if (![self isPlayerCreated:pl])
+        [self.players addObject:pl];
 }
 
 - (void)createGameWith:(NSString*)name {
     
     Game *game = [[Game alloc] initWith:name];
+    if (![self isGameCreated:game])
+        [self.games addObject:game];
+}
+
+#pragma mark - Privates
+
+- (BOOL)isPlayerCreated:(Player*)player {
     
-    [self.games addObject:game];
+    for (Player* pl in self.players) {
+        
+        if ([pl.name isEqualToString:player.name])
+            return true;
+    }
+    return false;
+}
+
+- (BOOL)isGameCreated:(Game*)game {
+    
+    for (Game* gm in self.games) {
+        
+        if ([gm.name isEqualToString:game.name])
+            return true;
+    }
+    return false;
 }
 
 @end

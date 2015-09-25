@@ -118,6 +118,7 @@
 		162CBBAE1B7A035F00A50522 /* RetroLan */ = {
 			isa = PBXGroup;
 			children = (
+				16BFA6AF1BB552E400BA6E46 /* Generics */,
 				162CBBB31B7A035F00A50522 /* AppDelegate.h */,
 				162CBBB41B7A035F00A50522 /* AppDelegate.m */,
 				162CBBDA1B7A069100A50522 /* Controller.h */,
@@ -190,6 +191,13 @@
 				1681F3691B7A1F95003C0301 /* ProfilesViewController.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		16BFA6AF1BB552E400BA6E46 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Generics;
 			sourceTree = "<group>";
 		};
 		56B545FC390D5F6F15EAC418 /* Pods */ = {
